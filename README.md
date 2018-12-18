@@ -43,7 +43,7 @@ C++ และ Javascript(Node js) รองลงมาตามลำดับ
 
 1. สามารถเข้าไปสมัครและสร้างฐานข้อมูลได้ที่ [Firebase](https://firebase.google.com/)
 2. เข้าไป download file service account ตามภาพ กด generate new private key
-![fire1](https://github.com/oop-it-kmitl-61/JavaGUIforIOT/blob/master/resouces/firebase1.png)
+![fire1](https://github.com/oop-it-kmitl-61/JavaGUIforIOT/blob/master/resouces/firebase1.png "width: 600px")
 ![fire2](https://github.com/oop-it-kmitl-61/JavaGUIforIOT/blob/master/resouces/firebase2.png)
 ![fire3](https://github.com/oop-it-kmitl-61/JavaGUIforIOT/blob/master/resouces/firebase3.png)
 3. ไปที่ real-time database พร้อมกับก็อบปี้ URL
@@ -52,6 +52,7 @@ C++ และ Javascript(Node js) รองลงมาตามลำดับ
 5. โครงสร้างฐานข้อมูลดังภาพต่อไปนี้ โดยทั้งหมดต้องตั้งค่าเป็น String
 ![struct](https://github.com/oop-it-kmitl-61/JavaGUIforIOT/blob/master/resouces/firebase5.png)
 6. (Optional) สามารถใช้ Firebase Function เพื่อให้มีการเก็บ log อัตโนมัติ ได้โดย ใช้ไฟล์ index.js ในโฟลเดอร์  firebaseFunction และใช้ library moment.js ซึ่งสามารถหาโหลดได้
+
 ![function](https://github.com/oop-it-kmitl-61/JavaGUIforIOT/blob/master/resouces/functions.png)
 
 ## Library
