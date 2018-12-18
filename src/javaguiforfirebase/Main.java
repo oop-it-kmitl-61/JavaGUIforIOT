@@ -74,27 +74,27 @@ public class Main {
     
     public static void warnSmoke(){
         
-        if (Smoke.is_danger()){
-            SoundPlayer.play();
+        if (Smoke.is_danger()){ 
             gui.getLabel(7).setForeground(new java.awt.Color(255, 51, 51));
             gui.getLabel(7).setText("มีปริมาณควันมากกว่าปกติ!");
+            SoundPlayer.loop();
         }
         else {
-            SoundPlayer.stop();
             gui.getLabel(7).setForeground(new java.awt.Color(51, 255, 51));
             gui.getLabel(7).setText("ควันสถานะปกติ");
+            SoundPlayer.stop();
         }
     }
     public static void warnTemp(){
     if (Temperature.is_danger()){
-            SoundPlayer.play();
             gui.getLabel(9).setForeground(new java.awt.Color(255, 51, 51));
             gui.getLabel(9).setText("อุณหภูมิสูงเกินค่าที่ตั้งไว้!");
+            SoundPlayer.loop();
         }
         else {
-            SoundPlayer.stop();
             gui.getLabel(9).setForeground(new java.awt.Color(51, 255, 51));
             gui.getLabel(9).setText("อุณหภูมิสถานะปกติ");
+            SoundPlayer.stop();
         }
     }
     
