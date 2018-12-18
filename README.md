@@ -11,6 +11,7 @@ Things ทางผู้จัดทำจึงเกิดแนวคิด�
 C++ และ Javascript(Node js) รองลงมาตามลำดับ
 
 #  ![Hardwares](https://github.com/oop-it-kmitl-61/JavaGUIforIOT/blob/master/resouces/hard.png) Hardwares
+- Arduino Uno
 - NodeMCU
 - DS3231 Temperature Sensor 
 - MQ2 Gas Sensor
