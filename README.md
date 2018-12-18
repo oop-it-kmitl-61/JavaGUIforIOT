@@ -31,11 +31,14 @@ C++ และ Javascript(Node js) รองลงมาตามลำดับ
 #  ![How to use](https://github.com/compro-itkmitl/777-traker/blob/master/resouces/Settings.png) How to use
 ## วิธีการเปิดโปรแกรม
 
-ใช้ JDK version 1.8 ดาวน์โหลดโฟลเดอร์นี้
+ใช้ JDK version 1.8 
+
+ดาวน์โหลดโฟลเดอร์นี้ โปรแกรม Home Security จากลิงก์นี้
 
 > https://goo.gl/UavCDD
 
-จากนั้นสามารถเปิดโปรแกรมได้โดยใช้ Terminal หรือ Commandline ด้วยคำสั่งนี้
+จากนั้นสามารถเปิดโปรแกรมได้โดยใช้ Terminal หรือ Commandline 
+เข้าไปที่ Directory ที่ดาวน์โหลดมา แล้วตามด้วยด้วยคำสั่งนี้
 
 `java -jar "JavaGUIforIOT.jar" `
 
