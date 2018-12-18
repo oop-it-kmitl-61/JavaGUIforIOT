@@ -45,7 +45,7 @@ C++ และ Javascript(Node js) รองลงมาตามลำดับ
 
 2. เข้าไป download file service account ตามภาพ กด generate new private key
 
-![fire1](https://github.com/oop-it-kmitl-61/JavaGUIforIOT/blob/master/resouces/firebase1.png =600x)
+![fire1](https://github.com/oop-it-kmitl-61/JavaGUIforIOT/blob/master/resouces/firebase1.png)
 
 ![fire2](https://github.com/oop-it-kmitl-61/JavaGUIforIOT/blob/master/resouces/firebase2.png)
 
