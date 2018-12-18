@@ -29,6 +29,28 @@ C++ และ Javascript(Node js) รองลงมาตามลำดับ
 #  ![How to use](https://github.com/compro-itkmitl/777-traker/blob/master/resouces/Settings.png) How to use
 ## วิธีการเปิดโปรแกรม
 
+ใช้ JDK version 1.8 ดาวน์โหลดโฟลเดอร์นี้
+
+> https://goo.gl/UavCDD
+
+จากนั้นสามารถเปิดโปรแกรมได้โดยใช้ Terminal หรือ Commandline ด้วยคำสั่งนี้
+
+`java -jar "JavaGUIforIOT.jar" `
+
+## การเตรียม ฐานข้อมูลหากต้องการใช้ฐานข้อมูลของตัวเอง
+
+1. สามารถเข้าไปสมัครและสร้างฐานข้อมูลได้ที่ [Firebase](https://firebase.google.com/)
+2. เข้าไป download file service account ตามภาพ กด generate new private key
+![fire1](https://github.com/oop-it-kmitl-61/JavaGUIforIOT/blob/master/resouces/firebase1.png)
+![fire2](https://github.com/oop-it-kmitl-61/JavaGUIforIOT/blob/master/resouces/firebase2.png)
+![fire3](https://github.com/oop-it-kmitl-61/JavaGUIforIOT/blob/master/resouces/firebase3.png)
+3. ไปที่ real-time database พร้อมกับก็อบปี้ URL
+![url](https://github.com/oop-it-kmitl-61/JavaGUIforIOT/blob/master/resouces/firebase4.png)
+4. ทำการ config path ต่าง ๆ ได้ในไฟล์ config.json
+
+## Library
+หากโปรแกรมค้นหาไฟล์ Library ไม่พบ สามารถดาวน์โหลดได้จาก
+> https://goo.gl/Qu2WG2
 
 #  ![Members](https://github.com/oop-it-kmitl-61/JavaGUIforIOT/blob/master/resouces/Person.png) Members
 | Name          | Surname       | Student ID |
