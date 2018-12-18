@@ -73,6 +73,7 @@ public class SecurityGUI extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Home Security");
         setBackground(new java.awt.Color(34, 34, 34));
+        setPreferredSize(new java.awt.Dimension(650, 500));
 
         jPanel3.setBackground(new java.awt.Color(34, 34, 34));
         jPanel3.setLayout(new java.awt.BorderLayout());
