@@ -11,11 +11,9 @@ Things ทางผู้จัดทำจึงเกิดแนวคิด�
 C++ และ Javascript(Node js) รองลงมาตามลำดับ
 
 #  ![Hardwares](https://github.com/oop-it-kmitl-61/JavaGUIforIOT/blob/master/resouces/hard.png) Hardwares
-- Arduino Uno R3
-- GPS Module
-- 3G Module UC15-T
-- Lithium-Polymer Battery 7.4v 3000mAh
-- Module DC-to-DC Step down Converter LM2596
+- NodeMCU
+- DS3231 Temperature Sensor 
+- MQ2 Gas Sensor
 
 #  ![app preview](https://github.com/oop-it-kmitl-61/JavaGUIforIOT/blob/master/resouces/preview.png) Application Preview
 

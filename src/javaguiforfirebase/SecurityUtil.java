@@ -16,12 +16,12 @@ import java.util.logging.*;
  */
 public class SecurityUtil {
     
-    public static String DATABASE_URL = "https://java-iot-bed31.firebaseio.com/";
     
-    public static void setUp(){
+    
+    public static void setUp(String DATABASE_URL, String service){
         FileInputStream serviceAccount;
         try {
-            serviceAccount = new FileInputStream("service-account.json");
+            serviceAccount = new FileInputStream(service);
             FirebaseOptions options = new FirebaseOptions.Builder()
                 .setCredentials(GoogleCredentials.fromStream(serviceAccount))
                 .setDatabaseUrl(DATABASE_URL)

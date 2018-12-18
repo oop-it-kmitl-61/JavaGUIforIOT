@@ -1,0 +1,4 @@
+{
+"service_account_path": "service-account.json",
+"firebase_url": "https://java-iot-bed31.firebaseio.com/"
+}

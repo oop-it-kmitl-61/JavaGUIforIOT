@@ -6,11 +6,17 @@
 package javaguiforfirebase;
 
 import com.google.firebase.database.*;
-import java.util.LinkedList;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.*;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 
 /**
  *
@@ -20,6 +26,7 @@ public class Main {
     static SecurityGUI gui = new SecurityGUI();
     static SecurityData Temperature = new SecurityData();
     static SecurityData Smoke = new SecurityData();
+    private static String service, DB_URL;
     
     public static SecurityGUI getGui(){
         return gui;
@@ -128,6 +135,22 @@ public class Main {
             java.util.logging.Logger.getLogger(SecurityGUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
+        JSONParser parser = new JSONParser();
+        Object obj = null;
+        JSONObject config = null;
+        try {
+            obj = parser.parse(new FileReader("config.json"));
+            config = (JSONObject) obj;
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IOException ex) {
+            Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (ParseException ex) {
+            Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    
+        service = (String) config.get("service_account_path");
+        DB_URL = (String) config.get("firebase_url");
         
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
@@ -135,9 +158,9 @@ public class Main {
                 gui.setVisible(true);
             }
         });
-        
-        SecurityUtil.setUp();
-        
+
+        SecurityUtil.setUp(DB_URL, service);
+
         setValueToStorage("max_temp", "Temperature", Temperature);
         setValueToStorage("max_smoke", "Smoke", Smoke);
         

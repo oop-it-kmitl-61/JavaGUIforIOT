@@ -60,7 +60,6 @@ public class DataUtil {
       
       DataUtil datas;
       String[] dataset = new String[3];
-      SecurityUtil.setUp();
       try {
           DataServices.initialTempData();
           TimeUnit.SECONDS.sleep(15);
