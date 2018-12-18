@@ -21,10 +21,13 @@ C++ และ Javascript(Node js) รองลงมาตามลำดับ
 
 #  ![app preview](https://github.com/oop-it-kmitl-61/JavaGUIforIOT/blob/master/resouces/preview.png) Application Preview
 
-<!-- [application](https://github.com/compro-itkmitl/777-traker/blob/master/resouces/webpage.png) -->
+![app](https://github.com/oop-it-kmitl-61/JavaGUIforIOT/blob/master/resouces/gui.png)
 
-<!-- #  ![How to use](https://github.com/compro-itkmitl/777-traker/blob/master/resouces/Settings.png) How to use -->
-<!--  -->
+![graph](https://github.com/oop-it-kmitl-61/JavaGUIforIOT/blob/master/resouces/graph.png)
+
+
+#  ![How to use](https://github.com/compro-itkmitl/777-traker/blob/master/resouces/Settings.png) How to use
+## วิธีการเปิดโปรแกรม
 
 
 #  ![Members](https://github.com/oop-it-kmitl-61/JavaGUIforIOT/blob/master/resouces/Person.png) Members
