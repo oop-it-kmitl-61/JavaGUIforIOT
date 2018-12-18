@@ -44,7 +44,7 @@ C++ และ Javascript(Node js) รองลงมาตามลำดับ
 1. สามารถเข้าไปสมัครและสร้างฐานข้อมูลได้ที่ [Firebase](https://firebase.google.com/)
 
 2. เข้าไป download file service account ตามภาพ กด generate new private key
-![fire1](https://github.com/oop-it-kmitl-61/JavaGUIforIOT/blob/master/resouces/firebase1.png "width: 600px")
+![fire1](https://github.com/oop-it-kmitl-61/JavaGUIforIOT/blob/master/resouces/firebase1.png =600x)
 ![fire2](https://github.com/oop-it-kmitl-61/JavaGUIforIOT/blob/master/resouces/firebase2.png)
 ![fire3](https://github.com/oop-it-kmitl-61/JavaGUIforIOT/blob/master/resouces/firebase3.png)
 
