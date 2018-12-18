@@ -79,7 +79,7 @@ public class SecurityGUI extends javax.swing.JFrame {
 
         jPanel2.setBackground(new java.awt.Color(34, 34, 34));
 
-        jLabel1.setFont(new java.awt.Font("RSU", 3, 48)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("RSU", 0, 48)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hand.png"))); // NOI18N
         jLabel1.setText("Home Security");
