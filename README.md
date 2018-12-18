@@ -42,24 +42,31 @@ C++ และ Javascript(Node js) รองลงมาตามลำดับ
 ## การเตรียม ฐานข้อมูลหากต้องการใช้ฐานข้อมูลของตัวเอง
 
 1. สามารถเข้าไปสมัครและสร้างฐานข้อมูลได้ที่ [Firebase](https://firebase.google.com/)
+
 2. เข้าไป download file service account ตามภาพ กด generate new private key
 ![fire1](https://github.com/oop-it-kmitl-61/JavaGUIforIOT/blob/master/resouces/firebase1.png "width: 600px")
 ![fire2](https://github.com/oop-it-kmitl-61/JavaGUIforIOT/blob/master/resouces/firebase2.png)
 ![fire3](https://github.com/oop-it-kmitl-61/JavaGUIforIOT/blob/master/resouces/firebase3.png)
+
 3. ไปที่ real-time database พร้อมกับก็อบปี้ URL
 ![url](https://github.com/oop-it-kmitl-61/JavaGUIforIOT/blob/master/resouces/firebase4.png)
+
 4. ทำการ config path ต่าง ๆ ได้ในไฟล์ config.json
+
 5. โครงสร้างฐานข้อมูลดังภาพต่อไปนี้ โดยทั้งหมดต้องตั้งค่าเป็น String
 ![struct](https://github.com/oop-it-kmitl-61/JavaGUIforIOT/blob/master/resouces/firebase5.png)
+
 6. (Optional) สามารถใช้ Firebase Function เพื่อให้มีการเก็บ log อัตโนมัติ ได้โดย ใช้ไฟล์ index.js ในโฟลเดอร์  firebaseFunction และใช้ library moment.js ซึ่งสามารถหาโหลดได้
 
 ![function](https://github.com/oop-it-kmitl-61/JavaGUIforIOT/blob/master/resouces/functions.png)
 
 ## Library
+
 หากโปรแกรมค้นหาไฟล์ Library ไม่พบ สามารถดาวน์โหลดได้จาก
 > https://goo.gl/Qu2WG2
 
 ### ฟังก์ชั่นต่าง ๆ ของโปรแกรม
+
 1. หลังจากที่เปิดโปรแกรมจะทำการแสดง GUI หน้าแรกของโปรแกรม ซึ่ง ค่าที่ได้จาก Sensor จะแสดงข้อมูลที่เป็นปัจจุบัน (ข้อมูลที่ได้จาก Firebase)
 ![fire1](https://github.com/oop-it-kmitl-61/JavaGUIforIOT/blob/master/resouces/firebase1.png)
 
