@@ -2,6 +2,9 @@
 โครงงานการพัฒนา Java Desktop Application สำหรับการควบคุมอุปกรณ์ IOT
 "Home Security"
 
+#  ![Help](https://github.com/oop-it-kmitl-61/JavaGUIforIOT/blob/master/resouces/Help.png) Report
+> https://drive.google.com/file/d/1r_P4g6XcoCOLkvR7XCuOzkfM1Y2MdSd7/view?usp=sharing
+
 #  ![home](https://github.com/oop-it-kmitl-61/JavaGUIforIOT/blob/master/resouces/Home.png)  About us
 ในปัจจุบันเทคโนโลยีได้มีการพัฒนาอย่างก้าวกระโดด ทำให้เกิดนวัตกรรมใหม่ๆ เกิดขึ้น
 บนโลก รวมถึงการที่มีระบบเครือข่ายอินเทอร์เน็ตที่คนเราใช้กันอีกด้วย และภายหลังมีการนำ
